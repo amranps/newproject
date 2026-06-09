@@ -1,0 +1,11 @@
+body{
+    background-color: #e6c8af;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgba(118, 19, 19, 0.893);
+    color: white;
+    padding: 15px;
+
+}

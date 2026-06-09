@@ -1,0 +1,118 @@
+body{
+    background-color: #e6c8af;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgba(74, 13, 13, 0.893);
+    color: #e6c8af;
+    padding: 15px;
+}
+div.banner{
+    background-color: rgba(74, 13, 13, 0.893);
+    color: #e6c8af;
+    text-align: center;
+    padding: 10px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+    cursor: pointer;
+    color: #e6c8af;
+}
+input{
+    height: 50px;
+    width: 50%;
+    margin-left: 20%;
+    border: 2px solid rgba(74, 13, 13, 0.893);
+    margin-top: 20px;
+    padding: 5px;
+}
+.products{
+    display: Flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.box{
+    border: 5px solid rgba(74, 13, 13, 0.893);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.box:hover{
+    box-shadow: 5px 10px 18px #888888;
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgba(74, 13, 13, 0.893);
+    color:#e6c8af;
+}
+.about{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+footer{
+    background-color: rgba(74, 13, 13, 0.893);
+    color:#e6c8af;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color:#e6c8af;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th{
+    background-color:rgba(74, 13, 13, 0.893);
+    color: #e6c8af;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+div.products{
+    padding: 20px;
+}
+
+h2{
+    color: rgba(74, 13, 13, 0.893);
+}
+form{
+    background-color: #e6c8af;
+    padding: 10px;
+    width: 30%;
+    border-radius: 0px;
+}
+
+input,
+textarea{
+    width: 60%;
+    padding: 0px;
+    margin: 10px;
+    margin-left: 20%;
+}
+
+input[type="submit"]{
+    background-color: rgba(74, 13, 13, 0.893);
+    color: #e6c8af;
+    border: black;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 5px 10px 18px #888888;
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgba(74, 13, 13, 0.893);
+    color:#e6c8af;
+}
